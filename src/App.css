@@ -1,0 +1,34 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: #4158D0;
+  background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: aliceblue;
+  font-size: 1.6rem;
+}
+
+.App{
+  font-family: 'Courier New', Courier, monospace;
+  line-height: 2rem;
+  width: 400px;
+}
+.App li{
+  list-style: none;
+}
+.App h3{
+  font-weight: 500;
+  font-size: 2rem;
+}
+
+.App button{
+  padding : 10px 20px;
+}
+.App input{
+  padding :10px 40px;
+}
